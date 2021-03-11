@@ -134,7 +134,7 @@ resource "azurerm_virtual_machine" "vm" {
   tags = {
     environment = "staging"
     ServerOwner = var.serverowner
-    Team.       = var.teamName
+    Team       = var.teamName
    
   }
 
