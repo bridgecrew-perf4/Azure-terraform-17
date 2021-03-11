@@ -113,5 +113,16 @@ variable "admin_password" {
   default     = "admin01!"
 }
 
+variable "teamName" {
+   Description = "teamName"
+   default = "CPG"
+}
+
+variable "Group" {
+   Description = "teamName"
+   default = "CPG"
+}
+
+
 
 
