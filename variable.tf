@@ -114,12 +114,12 @@ variable "admin_password" {
 }
 
 variable "teamName" {
-   Description = "teamName"
+   description = "teamName"
    default = "CPG"
 }
 
 variable "Group" {
-   Description = "teamName"
+   description = "teamName"
    default = "CPG"
 }
 
