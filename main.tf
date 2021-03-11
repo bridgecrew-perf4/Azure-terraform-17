@@ -135,6 +135,7 @@ resource "azurerm_virtual_machine" "vm" {
     environment = "staging"
     Team        = var.teamName
     Group       = var.Group
+    ProjectID   = var.projectID
    
   }
 
