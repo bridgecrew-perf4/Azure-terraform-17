@@ -132,10 +132,11 @@ resource "azurerm_virtual_machine" "vm" {
   os_profile_windows_config {
   }
   tags = {
-    environment = "staging"
+    environment = "Production"
     Team        = var.teamName
-    Group       = var.Group
-    ProjectID   = var.projectID
+    Name        = var.Name
+    
+    
    
   }
 

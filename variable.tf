@@ -113,19 +113,12 @@ variable "admin_password" {
   default     = "admin01!"
 }
 
-variable "teamName" {
-   description = "teamName"
-   default = "CPG"
-}
 
-variable "Group" {
-   description = "teamName"
-   default = "CPG"
-}
 
-variable "projectID" {
-   description = "Project Id"
-   default = "itomcpg2020"
+variable "Name" {
+   description = "Name of the project"
+   default = "itomcpg
+
 }
 
 
