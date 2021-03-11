@@ -125,7 +125,7 @@ variable "Group" {
 
 variable "projectID" {
    description = "Project Id"
-   default = "itomcpg2021"
+   default = "itomcpg2020"
 }
 
 
