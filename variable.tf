@@ -123,6 +123,11 @@ variable "Group" {
    default = "CPG"
 }
 
+variable "projectID" {
+   description = "Project Id"
+   default = "itomcpg2021"
+}
+
 
 
 
