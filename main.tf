@@ -133,7 +133,7 @@ resource "azurerm_virtual_machine" "vm" {
   }
   tags = {
     environment = "Production"
-    name       = var.ProjectName
+    name       = var.projectname
     
     
    
