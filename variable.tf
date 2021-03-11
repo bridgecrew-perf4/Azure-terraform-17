@@ -112,3 +112,14 @@ variable "admin_password" {
   description = "administrator password (recommended to disable password auth)"
   default     = "admin01!"
 }
+
+variable "teamName" {
+    description = "Name of the team"
+    default = "ToolsQE"
+    }
+
+variable "serverowner"{
+    description = "owner of the server"
+    default = "I369888"
+    }
+
