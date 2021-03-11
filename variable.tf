@@ -121,6 +121,16 @@ variable "projectname" {
 
 }
 
+variable "projectId" {
+   description = "Id of the project"
+   default = "itomcpg2021"
 
+}
+
+variable "groupName" {
+   description = "Group Name"
+   default = "CPGQE"
+
+}
 
 
