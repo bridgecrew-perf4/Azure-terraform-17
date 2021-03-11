@@ -113,13 +113,5 @@ variable "admin_password" {
   default     = "admin01!"
 }
 
-variable "teamName" {
-    description = "Name of the team"
-    default = "ToolsQE"
-    }
 
-variable "serverowner"{
-    description = "owner of the server"
-    default = "I369888"
-    }
 
