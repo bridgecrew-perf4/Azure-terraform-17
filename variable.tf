@@ -115,7 +115,7 @@ variable "admin_password" {
 
 
 
-variable "Project Name" {
+variable "projectname" {
    description = "Name of the project"
    default = "itomcpg"
 
