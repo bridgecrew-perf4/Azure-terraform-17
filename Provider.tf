@@ -5,5 +5,5 @@ provider "azurerm" {
   tenant_id       = var.tenantId
   version = "=2.0.0"
   #version = "=1.44.0"
-  #features {}
+  features {}
 }
