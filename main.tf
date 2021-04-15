@@ -136,6 +136,7 @@ resource "azurerm_virtual_machine" "vm" {
     name       = var.projectname
     projectid = var.projectId
     groupName = var.groupName
+    approver  = var.approver
 
     
    
