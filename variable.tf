@@ -133,4 +133,9 @@ variable "groupName" {
 
 }
 
+variable "approver"{
+    descritpiton = "Approver"
+    default = "sundar"
+    }
+
 
