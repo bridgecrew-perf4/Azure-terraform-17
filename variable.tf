@@ -72,8 +72,8 @@ variable "storage_replication_type" {
   default     = "LRS"
 }
 variable "subnet"{
-description = "Defines the subnetname"
-default = "autosubnet"
+    description = "Defines the subnetname"
+    default = "autosubnet"
 }
 
 variable "vm_size" {
@@ -113,8 +113,6 @@ variable "admin_password" {
   default     = "admin01!"
 }
 
-
-
 variable "projectname" {
    description = "Name of the project"
    default = "itomcpg"
@@ -124,7 +122,6 @@ variable "projectname" {
 variable "projectId" {
    description = "Id of the project"
    default = "itomcpg2021"
-
 }
 
 variable "groupName" {
@@ -133,9 +130,11 @@ variable "groupName" {
 
 }
 
-variable "approver"{
-    descritpiton = "Approver"
+variable "approver" {
     default = "sundar"
-    }
+}
 
+variable "dummy" {
+    default = "dummy"
+}
 
